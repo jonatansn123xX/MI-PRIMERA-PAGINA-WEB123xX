@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f8f9fa;
+  background: linear-gradient(120deg, #ffffff, #adfcff, #8ffbff);
   color: #333;
   line-height: 1.6;
   overflow-x: hidden;
@@ -19,7 +19,7 @@ body {
    HEADER
 =========================== */
 .main-header {
-  background: linear-gradient(90deg, #003366, #0077b6);
+  background: linear-gradient(90deg, #002142, #005c8d, #009ab9);
   color: white;
   display: flex;
   align-items: center;
@@ -37,7 +37,7 @@ body {
 }
 
 .logo {
-  width: 55px;
+  width: 80px;
   margin-right: 12px;
   border-radius: 50%;
 }
@@ -54,14 +54,14 @@ body {
 }
 
 .main-nav a {
-  color: white;
+  color: rgb(220, 237, 255);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 .main-nav a:hover {
-  color: #ffd700;
+  color: #002761;
 }
 
 /* ===========================
@@ -85,7 +85,7 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  background: linear-gradient(90deg, #00d4d4, #017086);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2rem;
@@ -136,7 +136,7 @@ body {
 .services-section h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: #003366;
+  color: #0067ce;
 }
 
 .services-container {
@@ -147,7 +147,7 @@ body {
 }
 
 .service-card {
-  background: white;
+  background: #ffffff;
   border-radius: 15px;
   padding: 25px;
   text-align: center;
@@ -337,7 +337,7 @@ body {
 }
 
 .subscribe-form button {
-  background: #0077b6;
+  background: #00a6ff;
   color: white;
   border: none;
   padding: 10px;
@@ -347,7 +347,7 @@ body {
 }
 
 .subscribe-form button:hover {
-  background: #005f8c;
+  background: #00344d;
 }
 
 .social-icons {
@@ -362,15 +362,15 @@ body {
 }
 
 .social-icons a:hover {
-  color: #005f8c;
+  color: #004261;
 }
 
 /* ===========================
    FOOTER
 =========================== */
 .main-footer {
-  background: #003366;
-  color: white;
+  background: linear-gradient(90deg, #00a6ff, #003366);
+  color: #ffffff;
   text-align: center;
   padding: 25px;
   margin-top: 40px;
