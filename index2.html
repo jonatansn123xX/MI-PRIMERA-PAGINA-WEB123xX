@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acuma Resort</title>
+
+  <link rel="stylesheet" href="styles1.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo Acuma" class="logo" />
+      <h1 class="site-name">Acuma Resort</h1>
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#resorts">Resorts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    <div class="content-container">
+
+      <section class="main-section">
+        <h1 class="gradient-text"> BIENVENIDO/A A ACUMA RESORT</h1>
+
+        <!-- ===== CARRUSEL ===== -->
+        <div class="carrusel">
+          <div class="carrusel-container">
+            <div class="carrusel-slide"><img src="img1.jpeg" alt="Resort 1" /></div>
+            <div class="carrusel-slide"><img src="img2.jpeg" alt="Resort 2" /></div>
+            <div class="carrusel-slide"><img src="img3.jpeg" alt="Resort 3" /></div>
+            <div class="carrusel-slide"><img src="img4.jpeg" alt="Resort 4" /></div>
+          </div>
+        </div>
+
+        <p>
+          Bienvenido a <strong>ACUMA Resort</strong>, un paraíso donde la naturaleza, el lujo y el descanso se encuentran en perfecta armonía.
+          Descubre un espacio diseñado para renovar cuerpo y mente, rodeado de paisajes impresionantes, gastronomía exquisita y experiencias únicas.
+        </p>
+
+        <!-- ===== SERVICIOS ===== -->
+        <section id="servicios" class="services-section">
+          <h2>Nuestros Servicios</h2>
+          <div class="services-container">
+            <div class="service-card">
+              <i class="fa-solid fa-spa"></i>
+              <h3>Spa & Bienestar</h3>
+              <p>Relájate con nuestros tratamientos exclusivos y masajes junto al mar.</p>
+            </div>
+            <div class="service-card">
+              <i class="fa-solid fa-utensils"></i>
+              <h3>Gastronomía Premium</h3>
+              <p>Disfruta de una experiencia culinaria inigualable con sabores locales e internacionales.</p>
+            </div>
+            <div class="service-card">
+              <i class="fa-solid fa-water"></i>
+              <h3>Actividades Acuáticas</h3>
+              <p>Kayak, buceo y paseos en lancha por las islas del Caribe.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== RESORTS ===== -->
+        <section id="resorts" class="resorts-section">
+          <h2 class="resorts-title">Resorts Destacados</h2>
+          <div class="resorts-container">
+
+            <div class="resort-card">
+              <img src="resort1.jpg" alt="Resort Acuma Playa" class="resort-img" />
+              <div class="resort-info">
+                <h3>Acuma Playa Resort</h3>
+                <p class="resort-location"><i class="fa-solid fa-location-dot"></i> La Boquilla, Cartagena</p>
+                <p class="resort-desc">Un oasis de lujo frente al mar con piscina infinita y acceso privado a la playa.</p>
+                <div class="resort-bottom">
+                  <span class="resort-rating">8.6 <small>Fabuloso</small></span>
+                  <span class="resort-price">COP 573.480</span>
+                </div>
+                <button class="resort-btn">Ver disponibilidad</button>
+              </div>
+            </div>
+
+            <div class="resort-card">
+              <img src="resort2.jpg" alt="Hilton Cartagena" class="resort-img" />
+              <div class="resort-info">
+                <h3>Hilton Cartagena</h3>
+                <p class="resort-location"><i class="fa-solid fa-location-dot"></i> Laguito, Cartagena</p>
+                <p class="resort-desc">Rodeado de la brisa del Caribe, ofrece experiencias únicas y vistas al océano.</p>
+                <div class="resort-bottom">
+                  <span class="resort-rating">8.5 <small>Muy bien</small></span>
+                  <span class="resort-price">COP 572.620</span>
+                </div>
+                <button class="resort-btn">Ver disponibilidad</button>
+              </div>
+            </div>
+
+            <div class="resort-card">
+              <img src="resort3.jpg" alt="Isla Paraíso Resort" class="resort-img" />
+              <div class="resort-info">
+                <h3>Isla Paraíso Resort</h3>
+                <p class="resort-location"><i class="fa-solid fa-location-dot"></i> Tierra Bomba, Cartagena</p>
+                <p class="resort-desc">Una experiencia tropical exclusiva rodeada de playas vírgenes y aguas cristalinas.</p>
+                <div class="resort-bottom">
+                  <span class="resort-rating">9.0 <small>Fantástico</small></span>
+                  <span class="resort-price">COP 610.200</span>
+                </div>
+                <button class="resort-btn">Ver disponibilidad</button>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- ===== TESTIMONIOS ===== -->
+        <section class="testimonials-section">
+          <h2>Testimonios</h2>
+          <div class="testimonials-container">
+            <div class="testimonial"><p>“Una experiencia increíble. Todo el personal fue amable y las vistas son de ensueño.”</p><span>- Laura M.</span></div>
+            <div class="testimonial"><p>“El mejor resort que he visitado en mi vida. Todo fue perfecto.”</p><span>- Carlos G.</span></div>
+            <div class="testimonial"><p>“La comida, el servicio y la tranquilidad hicieron que nuestras vacaciones fueran únicas.”</p><span>- Andrea R.</span></div>
+          </div>
+        </section>
+      </section>
+
+      <!-- ===== ASIDE ===== -->
+      <aside class="main-aside">
+        <h3>Noticias Relacionadas</h3>
+        <ul class="aside-links">
+          <li><a href="#"><i class="fa-solid fa-newspaper"></i> Artículo sobre Tecnología Web</a></li>
+          <li><a href="#"><i class="fa-solid fa-lightbulb"></i> Innovación y Diseño Digital</a></li>
+          <li><a href="#"><i class="fa-solid fa-code"></i> Tendencias en Desarrollo Frontend</a></li>
+          <li><a href="#"><i class="fa-solid fa-plane"></i> Nuevos destinos 2025</a></li>
+        </ul>
+
+        <div class="aside-divider"></div>
+
+        <h3>Promociones y Eventos</h3>
+        <ul class="promo-list">
+          <li>✨ 20% de descuento en reservas de octubre</li>
+          <li>🏝️ Nueva sede en San Andrés</li>
+          <li>🍸 Noche de cócteles todos los viernes</li>
+        </ul>
+
+        <div class="aside-divider"></div>
+
+        <h3>Contáctanos</h3>
+        <ul class="contact-info">
+          <li><i class="fa-solid fa-phone"></i> +57 321 456 7890</li>
+          <li><i class="fa-solid fa-envelope"></i> contacto@acumaresort.com</li>
+          <li><i class="fa-solid fa-location-dot"></i> Cartagena, Colombia</li>
+        </ul>
+
+        <div class="aside-divider"></div>
+
+        <h3>Suscríbete</h3>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Tu correo electrónico" required />
+          <button type="submit">Suscribirme</button>
+        </form>
+
+        <div class="aside-divider"></div>
+
+        <h3>Síguenos</h3>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer id="contacto" class="main-footer">
+    <p>&copy; 2025 Acuma Resort. Todos los derechos reservados.</p>
+    <p><a href="politpriv.html">Política de Privacidad</a> | <a href="termyservs.html">Términos de Servicio</a></p>
+  </footer>
+</body>
+</html>
