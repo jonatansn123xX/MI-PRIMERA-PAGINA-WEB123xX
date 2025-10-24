@@ -1,25 +1,19 @@
-﻿/* ===========================
-   ESTILOS GENERALES
-=========================== */
-* {
+﻿* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Segoe', 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 body {
-  background: linear-gradient(120deg, #ffffff, #adfcff, #8ffbff);
+  background: linear-gradient(120deg, #ffffff, #95fce9, #98fcff);
   color: #333;
   line-height: 1.6;
   overflow-x: hidden;
 }
 
-/* ===========================
-   HEADER
-=========================== */
 .main-header {
-  background: linear-gradient(90deg, #002142, #005c8d, #009ab9);
+  background: linear-gradient(90deg, #657c6e, #b6842d, #00424b);
   color: white;
   display: flex;
   align-items: center;
@@ -54,7 +48,7 @@ body {
 }
 
 .main-nav a {
-  color: rgb(220, 237, 255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s;
@@ -64,9 +58,6 @@ body {
   color: #002761;
 }
 
-/* ===========================
-   CONTENIDO PRINCIPAL
-=========================== */
 .main-content {
   display: flex;
   justify-content: center;
@@ -85,7 +76,7 @@ body {
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, #00d4d4, #017086);
+  background: linear-gradient(90deg, #016363, #01d9ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 2rem;
@@ -93,9 +84,6 @@ body {
   text-align: center;
 }
 
-/* ===========================
-   CARRUSEL
-=========================== */
 .carrusel {
   overflow: hidden;
   border-radius: 10px;
@@ -123,12 +111,11 @@ body {
   0%, 20% { transform: translateX(0); }
   25%, 45% { transform: translateX(-100%); }
   50%, 70% { transform: translateX(-200%); }
-  75%, 100% { transform: translateX(-300%); }
+  75%, 95% { transform: translateX(-300%); }
+
+  100% { transform: translateX(0);}
 }
 
-/* ===========================
-   SERVICIOS
-=========================== */
 .services-section {
   margin: 40px 0;
 }
@@ -167,9 +154,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* ===========================
-   RESORTS DESTACADOS
-=========================== */
 .resorts-section {
   margin: 50px 0;
 }
@@ -246,12 +230,9 @@ body {
 }
 
 .resort-btn:hover {
-  background: #005f8c;
+  background: #003b57;
 }
 
-/* ===========================
-   TESTIMONIOS
-=========================== */
 .testimonials-section {
   text-align: center;
   margin: 60px 0;
@@ -277,9 +258,6 @@ body {
   transform: translateY(-5px);
 }
 
-/* ===========================
-   ASIDE
-=========================== */
 .main-aside {
   flex: 1;
   background: #ffffff;
@@ -365,11 +343,8 @@ body {
   color: #004261;
 }
 
-/* ===========================
-   FOOTER
-=========================== */
 .main-footer {
-  background: linear-gradient(90deg, #00a6ff, #003366);
+  background: linear-gradient(90deg, #00b7ff, #001d3a);
   color: #ffffff;
   text-align: center;
   padding: 25px;
@@ -386,9 +361,6 @@ body {
   text-decoration: underline;
 }
 
-/* ===========================
-   RESPONSIVE
-=========================== */
 @media (max-width: 1000px) {
   .content-container {
     flex-direction: column;
